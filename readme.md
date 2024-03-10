@@ -71,7 +71,7 @@ Ils seront projetés dans des salles, à des horaires donnés, avec un employé 
 Construire le MCD du projet.
 
 ## Exercice 2
-Préparer une base de données spécifique à ce projet. Exporter le SQL, et l'importer dans la base de données.
+Préparer une base de données `cinema` spécifique à ce projet. Exporter le SQL, et l'importer dans la base de données. Vous créerez bien sûr un utilisateur `cinema` qui aura le droit d'accéder qu'à cette base.
 
 ## exercice 3
 Remplir la base avec des données d'exercice :
@@ -83,17 +83,18 @@ Vérifier avec quelques requêtes que tout se passe comme prévu :
 1. Afficher les titres de tous les films.
 2. Afficher les titres des prochains films (pas de dates antiérieures à maintenant).
 3. Afficher le nom des salles que gèrera Jean.
-4. Lister chaque employé et sa ou ses salle(s) associée(s).
+4. Lister chaque employé et sa ou ses salle(s) associée(s), avec les horaires d'intervention.
 5. Retrouver tous les films de la première catégorie.
 6. Retrouver les films qui sont accessibles aux enfants (-12)
 7. Retrouver les films projetés par Jean.
 8. Afficher le nombre de ces films (et pas la liste).
-9. Sélectionner tous les films, en leur associant le nom de la categorie à laquelle ils appartiennent et la classification d'âge, ainsi que les horaires des futures projections.
-10. Faire la même chose, juste pour les films que gèrera Jean.
-11. Finalement, l'employé 2 sera en arrêt pendant 1 mois, modifiez la base pour réattribuer les horaires à d'autres personnes.
-12. Modifiez l'adresse mail de l'employé 3.
-13. Ajoutez le dernier film qui vient de sortir.
-14. Supprimez le film qui n'est plus projeté depuis le plus longtemps, en faisant une règle de sélection (admettons que vous ne voyez pas les films, vous voulez faire une commande SQL qui supprime sans que vous sachiez quel est ce film).
-15. Supprimez toutes les classifications qui sont inutilisées.
-16. Rajoutez-les, en fait c'est une erreur de votre employé ;)
-17. Bravo, vous êtes très fort !
+9. Sélectionner tous les noms des films, en leur associant le nom de la categorie à laquelle ils appartiennent et la classification d'âge, ainsi que les horaires des futures projections.
+10. Faire la même chose en les classant dans l'ordre croissant des horaires.
+11. Faire la même chose, juste pour les films que gèrera Jean.
+12. Finalement, l'employé 2 sera en arrêt pendant 1 mois, modifiez la base pour réattribuer les horaires à d'autres personnes.
+13. Modifiez l'adresse mail du 3e employé.
+14. Ajoutez le dernier film qui vient de sortir.
+15. Supprimez le film qui n'est plus projeté depuis le plus longtemps, en faisant une règle de sélection (admettons que vous ne voyez pas les films, vous voulez faire une commande SQL qui supprime sans que vous sachiez quel est ce film).
+16. Supprimez toutes les classifications qui sont inutilisées.
+17. Rajoutez-les, en fait c'est une erreur de votre employé ;)
+18. Bravo, vous êtes très fort ! Vous pouvez supprimer la base de données (toujours en ligne de commande).
