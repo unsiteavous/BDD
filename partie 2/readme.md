@@ -5,29 +5,17 @@ Créer une base de données pour un magasin en ligne, y ajouter des données, et
 Étapes :
 
 ## 1. Création de la Base de Données
--  Créez un utilisateur et sa base de données assocée nommée ecommerce.
+-  Créez un utilisateur et sa base de données associée nommée ecommerce.
 -  Créez le MCD comprenant les tables suivantes :
-   - **produits** : Pour stocker les informations sur les produits. Elle aura les attributs suivants : 
-    ID,
-    Nom,
-    Prix
+   - **produits** : Pour stocker les informations sur les produits. Elle aura les attributs suivants : ID, Nom, Prix
 
    - **categories** : Pour stocker les informations sur les catégories de produits. elle aura deux attributs : ID, Nom
 
-   - **clients** : Pour stocker les informations sur les clients. Elle aura les attributs suivants : 
-    ID,
-    Nom,
-    Prénom,
-    Email,
-    date_inscription
+   - **clients** : Pour stocker les informations sur les clients. Elle aura les attributs suivants : ID, Nom, Prénom, Email, date_inscription
 
-   - **commandes** : Pour stocker les informations sur les commandes. Elle aura les attributs suivants : 
-    ID,
-    date_commande
+   - **commandes** : Pour stocker les informations sur les commandes. Elle aura les attributs suivants : ID, date_commande
 
-   - **details_commandes** : Pour stocker les détails des produits commandés. Elle aura les attributs suivants : 
-    ID,
-    quantite
+   - **details_commandes** : Pour stocker les détails des produits commandés. Elle aura les attributs suivants : ID,quantite
 - Ecrivez le code SQL correspondant. 
 
 ## 2. Ajout de Données
